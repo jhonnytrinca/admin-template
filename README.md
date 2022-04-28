@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Admin Template
 
-## Getting Started
+Projeto de criação de um template de portal com acesso Admin. Possui página de autenticação com opções de login via email ou Google (ambas utilizando integração via Firebase), além de acesso ao portal com opções de página. Para sua criação foram utilizados o NextJs juntamente do Typescript, além de Tailwind para otimização do CSS e para criação de modo noturno.
 
-First, run the development server:
+## Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
+- [NextJS](https://nextjs.org/docs/getting-started)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [Tailwind](https://tailwindcss.com/docs/installation)
+- [Firebase](https://firebase.google.com)
+
+## Como rodar o projeto
+
+Para rodar esse projeto será necessário possuir o [NodeJs](https://nodejs.org/en/), [Git](https://git-scm.com/) e um editor de sua preferência, como [VS Code](https://code.visualstudio.com/).
+
+### Clonando o projeto
+
+Clone o repositório e o acesse na pasta do projeto
+
+```
+$ git clone https://github.com/jhonnytrinca/admin-template
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Rodando a aplicação no servidor web
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+No diretório do projeto, instale as dependências com:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+`yarn start` ou `npm start`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Isso rodará a aplicação em modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualização no browser.
 
-## Learn More
+## Contribuições
 
-To learn more about Next.js, take a look at the following resources:
+Para contribuir nesse projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Faça um fork do projeto;
+- Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+- Crie um commit com suas alterações: `git commit -m "feature: my feature"`
+- Faça o envio das alterações: `git push origin my-feature`
